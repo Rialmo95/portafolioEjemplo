@@ -5,7 +5,7 @@
 [![MySQL](https://img.shields.io/badge/MySQL-Modelado%203FN-4479A1?logo=mysql)]()
 [![Licencia](https://img.shields.io/badge/Licencia-MIT-lightgrey)]()
 
-Sistema de consola para la gestión de usuarios en un E-commerce de tecnología, desarrollado como Evidencia de Aprendizaje N° 3. Los usuarios pueden registrarse, iniciar sesión y acceder a funcionalidades específicas según su rol (administrador o usuario estándar).
+Sistema para la gestión de usuarios en un E-commerce de tecnología, desarrollado como Evidencia de Aprendizaje N° 4 de la asignatura Proyecto Integrador I. Los usuarios pueden registrarse, iniciar sesión y acceder a funcionalidades específicas según su rol (administrador o usuario estándar).
 
 ## ✨ Características Principales
 
@@ -22,9 +22,18 @@ Sistema de consola para la gestión de usuarios en un E-commerce de tecnología,
 - **Eliminación de usuarios** (solo administradores)
 
 ### 🗃️ Base de Datos
-- **Modelo relacional normalizado** (Tercera Forma Normal - 3FN)
-- **Diseño entidad-relación** con integridad referencial
-- **Scripts SQL incluidos** para creación y operaciones CRUD
+- **Diseño entidad-relación** DER que muestra las tablas de MySQL y cómo se relacionan
+
+### 🧩 Diagrama de Clases
+
+- **Diseño orientado a objetos** que representa la estructura estática del sistema
+- **Relaciones entre clases**: Herencia, asociaciones y dependencias
+- **Clases principales**:
+  - `Usuario`: Clase base con atributos y métodos comunes
+  - `Administrador`: Hereda de Usuario con permisos extendidos
+  - `SistemaAuth`: Gestiona autenticación y validaciones
+  - `MenuSistema`: Controla la navegación por roles
+
 
 ## 🚀 Tecnologías Utilizadas
 
@@ -37,7 +46,7 @@ Sistema de consola para la gestión de usuarios en un E-commerce de tecnología,
 
 ### Principios Aplicados
 ![POO](https://img.shields.io/badge/POO-Programación%20Orientada%20a%20Objetos-green)
-![Regex](https://img.shields.io/badge/Validaciones-Expresiones%20Regulares-orange)
+
 
 ## 📦 Instalación y Ejecución
 
@@ -49,32 +58,19 @@ Sistema de consola para la gestión de usuarios en un E-commerce de tecnología,
 ### Pasos para ejecutar
 1. **Clonar o descargar el repositorio**
    ```bash
-   git clone https://github.com/tuusuario/innovaweb_ecommerce.git
-   cd innovaweb_ecommerce
+   git clone https://github.com/Grupo16InnovaWeb/InnovaWeb
+   cd InnovaWeb
 Abrir el proyecto en VS Code
 
 bash
 code .
 Ejecutar la aplicación
 
-bash
-python src/main.py
-🗄️ Estructura de la Base de Datos
-Scripts SQL Incluidos
-crear_bd.sql → Creación de tablas y relaciones
 
-crud_usuarios.sql → Operaciones CRUD para la tabla usuarios
-
-Normalización
-Tercera Forma Normal (3FN) aplicada
-
-Integridad referencial garantizada
-
-Modelo entidad-relación optimizado
 
 📁 Estructura del Proyecto
 text
-innovaweb_ecommerce/
+Innovaweb/
 │
 ├── src/                          # Código fuente principal
 │    ├── main.py                  # Punto de entrada del programa  
@@ -134,11 +130,13 @@ Integridad referencial en bases de datos
 
 👥 Integrantes del Proyecto
 Nombre	Rol en el Proyecto
-Acosta Johana Vanessa	Base de datos
-Andreoli Fernando Daniel	Base de datos
-Crespin Marianela Jenifer	Python
-Molina Ricardo Alberto	Python
-Vaca Cristian Andres	Python
+Acosta Johana Vanessa	    Milestone / IEE830 / DER
+Andreoli Fernando Daniel	DER
+Crespin Marianela Jenifer	
+Molina Ricardo Alberto	Readme / DER
+Molina Laura	IEE830
+Tello Adrian Nicolas	Readme
+
 📞 Soporte
 Para consultas técnicas o problemas con la ejecución, revisar la documentación en la carpeta docs/ o contactar al equipo de desarrollo.
 
