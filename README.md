@@ -43,19 +43,6 @@ Desarrollar una plataforma de e-commerce escalable que permita:
 ## 🏗️ Arquitectura Propuesta
 
 ### 🧩 Diagrama de Clases (Planificado)
-Sistema Modular Planeado:
-
-Módulo de Autenticación
-
-Módulo de Catálogo
-
-Módulo de Carrito
-
-Módulo de Pagos
-
-Módulo de Administración
-
-text
 
 ### 🗃️ Modelo de Datos (Propuesto)
 - ✅ Base de datos relacional normalizada
@@ -103,17 +90,18 @@ text
 | **Planificación** | 2-3 semanas | Documentación completa |
 | **Desarrollo Core** | 8-10 semanas | MVP funcional |
 | **Funcionalidades Avanzadas** | 6-8 semanas | Sistema completo |
-| **Testing y Lanzamiento** | 2-3 semanas | Plataforma estable |
+| **Testing y Lanzamiento** | 2-3 semanas | Plataforma stable |
 
-## 👥 Equipo Propuesto
+## 👥 Integrantes del Proyecto
 
-| Rol | Cantidad | Responsabilidades |
-|-----|----------|-------------------|
-| **Project Manager** | 1 | Coordinación general |
-| **Backend Developer** | 2-3 | Lógica de negocio, APIs |
-| **Frontend Developer** | 1-2 | Interfaz de usuario |
-| **UX/UI Designer** | 1 | Experiencia de usuario |
-| **QA Tester** | 1 | Control de calidad |
+| Nombre | Rol en el Proyecto |
+|--------|---------------------|
+| Acosta Johana Vanessa | Milestone / IEE830 / DER |
+| Andreoli Fernando Daniel | DER |
+| Crespin Marianela Jenifer | Por asignar |
+| Molina Ricardo Alberto | Readme / DER |
+| Molina Laura | IEE830 |
+| Tello Adrian Nicolas | Readme |
 
 ## 📈 Métricas de Éxito Propuestas
 
@@ -140,4 +128,3 @@ text
 **¡Propuesta de valor innovadora en desarrollo!** 🎉
 
 *Documento de anteproyecto - InnovaWeb Team - Versión 1.0*
-
